@@ -2,12 +2,12 @@ import React from "react";
 import "./nav.css";
 const Nav = () => {
   return (
-    <nav className="containe relative flex w-full justify-between items-center sm-dev md-dev">
+    <nav className="px-20 relative flex w-full justify-between items-center sm-dev md-dev">
       <div className="hamburger-menu ">
         <img src="white_paper_assets/hamburger.svg" alt="" />
       </div>
       <div className="flex items-center">
-        <div className="logo-items flex lg:ml-[4rem]">
+        <div className="logo-items flex">
           <img src="white_paper_assets/logo.svg" className='logo-img' alt="lets build dao" />
           <img
             src="white_paper_assets/divider.svg"
@@ -22,7 +22,7 @@ const Nav = () => {
           <div className="nav-list-item font-bold">Blog</div>
         </ul>
       </div>
-      <button className="support-btn">Support</button>
+      <button className="support-btn p-3">Support</button>
     </nav>
   );
 };

@@ -9,10 +9,11 @@
 }
 
 .support-btn {
-  width: max-content;
+  width: 150px;
   display: inline-block;
   padding: 0.5rem 1rem;
   border-radius: 5px;
+  font-weight: 700;
   -webkit-border-radius: 5px;
   -moz-border-radius: 5px;
   -ms-border-radius: 5px;
