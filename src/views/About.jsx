@@ -14,7 +14,7 @@ function About(props) {
       </div>
       <Missions />
       <Sponsors />
-    </div>
+    </div>  
   );
 }
 

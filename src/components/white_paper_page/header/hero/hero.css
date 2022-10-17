@@ -43,22 +43,27 @@
 
 @media screen and (max-width: 660px) {
   .hero {
-    margin-top: 6rem;
+    margin-top: 6rem !important;
     width: 100%;
     padding: 0 0.5rem;
   }
   .hero-txt {
-    font-size: 25px;
-    line-height: 30px;
+    font-size: 26px !important;
+    line-height: 40px !important;
   }
   .hero h3 {
-    font-size: 12px;
-    line-height: 20px;
+    font-size: 12px !important;
+    line-height: 20px !important;
   }
   .hero-btns {
-    padding: 10px 30px;
+    padding: 10px 30px !important;
     font-size: 14px;
     line-height: 20px;
+    transform: translateX(20%) !important;
+    -webkit-transform: translateX(20%) !important;
+    -moz-transform: translateX(20%) !important;
+    -ms-transform: translateX(20%) !important;
+    -o-transform: translateX(20%) !important;
   }
 }
 
