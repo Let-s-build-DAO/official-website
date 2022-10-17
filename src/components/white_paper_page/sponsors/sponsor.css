@@ -1,0 +1,30 @@
+.sponsor-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.sponsors-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  padding: 10px 20px;
+  background: #e98bc7;
+  border-radius: 40px;
+  width: 275px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .sponsor-wrap {
+    padding: 0 10px;
+  }
+
+  .sponsors__title h2 {
+    font-size: 28px;
+  }
+}
