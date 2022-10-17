@@ -1,5 +1,7 @@
 import React from "react";
 import "./nav.css";
+import { Link } from "react-router-dom";
+
 const Nav = () => {
   return (
     <nav className="px-20 top-0 absolute flex w-full justify-between items-center sm-dev md-dev">
@@ -16,9 +18,12 @@ const Nav = () => {
           />
         </div>
         <ul className="nav-list text-white flex lg:ml-[9rem]">
-          <div className="nav-list-item mr-[3rem] font-bold">Home</div>
-          <div className="nav-list-item mr-[3rem] font-bold">Contact</div>
-          <div className="nav-list-item mr-[3rem] font-bold">White Paper</div>
+          <Link to="/">
+            <div className="nav-list-item mr-[3rem] font-bold">Home</div>
+          </Link>
+          <Link to="/about">
+          <div className="nav-list-item mr-[3rem] font-bold">About</div>
+          </Link>
           <div className="nav-list-item font-bold">Blog</div>
         </ul>
       </div>
