@@ -2,7 +2,7 @@ import React from "react";
 import "./hero.css";
 const Hero = () => {
   return (
-    <section className="hero-section w-full h-full flex  justify-center text-[#F8F8F8]">
+    <section className="hero-section w-full h-full flex items-center  justify-center text-[#F8F8F8]">
       <div className="hero w-[500px] mt-[4rem]">
         <h1 className="hero-txt">Let’s Build, Connect, Collaborate</h1>
         <h3>

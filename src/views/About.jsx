@@ -7,8 +7,8 @@ function About(props) {
   return (
     <div>
 sponsors
-      <Sponsors />
       <Missions />
+      <Sponsors />
     </div>
   );
 }
