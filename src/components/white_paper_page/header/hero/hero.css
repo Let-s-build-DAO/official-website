@@ -1,10 +1,8 @@
 .hero-txt {
-  font-family: "BankGothic Md BT";
+  /* font-family: "BankGothic Md BT"; */
   /* font-style: 700; */
-  font-weight: 700;
-  font-size: 40px;
   line-height: 60px;
-
+  font-family: "CustomFont";
   text-align: center;
   text-transform: uppercase;
 }
@@ -23,7 +21,6 @@
   align-items: center;
   padding: 10px 50px;
   border-radius: 40px;
-  width: fit-content;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
