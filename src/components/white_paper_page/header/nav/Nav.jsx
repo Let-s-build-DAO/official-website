@@ -2,7 +2,7 @@ import React from "react";
 import "./nav.css";
 const Nav = () => {
   return (
-    <nav className="px-20 relative flex w-full justify-between items-center sm-dev md-dev">
+    <nav className="px-20 top-0 absolute flex w-full justify-between items-center sm-dev md-dev">
       <div className="hamburger-menu ">
         <img src="white_paper_assets/hamburger.svg" alt="" />
       </div>
