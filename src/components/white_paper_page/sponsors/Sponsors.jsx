@@ -10,12 +10,12 @@ const Sponsors = () => {
       }}
     >
       <div className="sponsors">
-        <div className="sponsors__title mb-[2rem]">
+        <div className="sponsors__title mb-[2rem] flex flex-col items-center justify-center">
           <h2 className="text-[#fff] text-[2.5rem] font-bold uppercase">
             Join our Sponsors
           </h2>
           <img
-            src="white_paper_assets/dash-line.svg"
+            src="white_paper_assets/line-dash.svg"
             alt=""
             className="sponsors-img"
           />
