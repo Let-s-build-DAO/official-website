@@ -6,7 +6,9 @@ const Sponsors = () => {
     <section
       className="mt-[4rem] h-[60vh] sponsor-wrap"
       style={{
-        backgroundImage: `url("white_paper_assets/sponsor-bg-vector.svg")`
+        backgroundImage: `url("white_paper_assets/sponsor-bg-vector.svg")`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
       }}
     >
       <div className="sponsors">

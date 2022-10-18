@@ -1,36 +1,19 @@
-.hero-txt {
-  /* font-family: "BankGothic Md BT"; */
-  /* font-style: 700; */
-  line-height: 60px;
-  font-family: "CustomFont";
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.hero h3 {
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 24px;
-
-  text-align: center;
-}
-
 .hero-btns {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px 50px;
+  padding: 12px 40px 12px 30px;
   border-radius: 40px;
   -webkit-border-radius: 40px;
   -moz-border-radius: 40px;
   -ms-border-radius: 40px;
   -o-border-radius: 40px;
   background: #e98bc7;
-  transform: translateX(25%);
+  /* transform: translateX(25%);
   -webkit-transform: translateX(25%);
   -moz-transform: translateX(25%);
   -ms-transform: translateX(25%);
-  -o-transform: translateX(25%);
+  -o-transform: translateX(25%); */
   color: black;
   font-weight: 600;
 }
@@ -43,36 +26,26 @@
 
 @media screen and (max-width: 660px) {
   .hero {
-    margin-top: 6rem !important;
     width: 100%;
     padding: 0 0.5rem;
   }
-  .hero-txt {
-    font-size: 26px !important;
-    line-height: 40px !important;
+  .hero h1 {
+    font-size: 26px;
+    line-height: 40px;
   }
   .hero h3 {
-    font-size: 12px !important;
+    font-size: 15px !important;
     line-height: 20px !important;
+    width: 100%;
   }
   .hero-btns {
     padding: 10px 30px !important;
     font-size: 14px;
     line-height: 20px;
-    transform: translateX(20%) !important;
-    -webkit-transform: translateX(20%) !important;
-    -moz-transform: translateX(20%) !important;
-    -ms-transform: translateX(20%) !important;
-    -o-transform: translateX(20%) !important;
   }
 }
 
 @media screen and (max-width: 1024px) {
-  .hero {
-    margin-top: 8rem;
-    width: 100%;
-    padding: 0 0.5rem;
-  }
   .hero-txt {
     font-size: 60px;
     line-height: 68px;
@@ -84,11 +57,6 @@
   .hero-btns {
     padding: 20px 30px;
     line-height: 20px;
-    transform: translateX(80%);
-    -webkit-transform: translateX(80%);
-    -moz-transform: translateX(80%);
-    -ms-transform: translateX(80%);
-    -o-transform: translateX(80%);
   }
 
   .github-icon {

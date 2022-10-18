@@ -3,9 +3,11 @@ import "./hero.css";
 const Hero = () => {
   return (
     <section className="hero-section w-full h-full flex  justify-center text-[#F8F8F8]">
-      <div className="hero w-[900px] my-52">
-        <h1 className="text-center heading font-bold lg:text-7xl text-4xl">Let’s Build, Connect, Collaborate</h1>
-        <h3 className="w-1/2 mx-auto">
+      <div className="hero w-[900px] mt-52 mb-44">
+        <h1 className="text-center heading font-bold lg:text-7xl text-4xl md:text-5xl">
+          Let’s Build, Connect, Collaborate
+        </h1>
+        <h3 className="lg:w-1/2 md:w-[650px] mx-auto text-center font-medium text-lg">
           At DAO we build and share the knowledge about web3 technology within
           Africa and across the world
         </h3>

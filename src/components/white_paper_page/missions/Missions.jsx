@@ -5,47 +5,47 @@ const Missions = () => {
   return (
     <section className="my-12 w-full h-full">
       <div className="mission-wrap px-8 pb-6 text-white font-['SF Pro Display']">
-        <div className="goal mb-12">
-          <h1 className="goal-title text-[28px] font-bold uppercase">
+        <div className="goal mb-12 flex flex-col justify-center items-center md:block lg:block">
+          <h1 className="goal-title text-base md:text-[28px] lg:text-[28px] font-bold uppercase">
             Our Goal
           </h1>
           <img
             src="white_paper_assets/line-dash.svg"
             alt="line dash"
-            className="line-dash mb-4 w-[80px]"
+            className="line-dash mb-4 w-[80px] md:w-[100px] lg:w-[100px] md:mt-2"
           />
-          <p className="goal-text">
+          <p className="goal-text text-center md:text-left lg:text-left">
             Onboard, Educate & Support Web3 Builders, Foster & Build Web3 Tools
             & Public Goods
           </p>
         </div>
-        <div className="mission mb-12">
-          <h1 className="goal-title text-[28px] font-bold uppercase">
+        <div className="mission mb-12 flex flex-col justify-center items-center md:block lg:block">
+          <h1 className="goal-title text-base md:text-[28px] lg:text-[28px] font-bold uppercase">
             Our MISSION
           </h1>
           <img
             src="white_paper_assets/line-dash.svg"
             alt="line dash"
-            className="line-dash mb-4 w-[80px]"
+            className="line-dash mb-4 w-[80px] md:w-[100px] lg:w-[100px] md:mt-2"
           />
-          <p className="goal-text">
+          <p className="goal-text text-center md:text-left lg:text-left">
             Web3 Afrika exists to accelerate the education and opportunities of
             a new wave of builders and bring diversity into web3 conversations
             globally by fostering communities in Africa, Africans in diaspora,
             and persons of African descent from across the world.
           </p>
         </div>
-        <div className="vision mb-12">
-          <h1 className="goal-title text-[28px] font-bold uppercase">
+        <div className="vision mb-12 flex flex-col justify-center items-center md:block lg:block">
+          <h1 className="goal-title text-base md:text-[28px] lg:text-[28px] md:mb-2 font-bold uppercase">
             Our Vision
           </h1>
           <img
             src="white_paper_assets/line-dash.svg"
             alt="line dash"
-            className="line-dash mb-4 w-[80px]"
+            className="line-dash w-[80px] md:w-[100px] lg:w-[100px] md:mb-4"
           />
 
-          <ul className="goal-list pl-6 decoration-white mt-4">
+          <ul className="goal-list pl-6 mt-2 md:mt-4 lg:mt-4">
             <li className="goal-list-item mb-[6px]">
               Access: to provide access to our members that would not otherwise
               be available. Access to education, funding, community, networks
