@@ -1,4 +1,4 @@
-ul li::before {
+.vision ul li::before {
   content: "\2022"; /* Add content: \2022 is the CSS Code/unicode for a bullet */
   color: white; /* Change the color */
   font-weight: bold; /* If you want it to be bold */
