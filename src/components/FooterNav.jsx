@@ -1,6 +1,6 @@
 import React from "react";
 
-function FooterNav(props) {
+function FooterNav() {
   return (
     <footer className="bg-[#270a2a] px-12 lg:pb-0 pt-0 md:flex lg:flex md:justify-between lg:justify-between w-full">
       <div className="flex mb-4 justify-center">

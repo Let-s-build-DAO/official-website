@@ -3,7 +3,7 @@ import Missions from '../components/white_paper_page/missions/Missions';
 import Hero from "../components//white_paper_page/header/hero/Hero";
 
 import Sponsors from '../components/white_paper_page/sponsors/Sponsors';
-function About(props) {
+function About() {
   return (
     <div>
       <div
