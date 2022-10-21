@@ -6,7 +6,7 @@ const Sponsors = () => {
     <section
       className="mt-[4rem] h-[60vh] sponsor-wrap"
       style={{
-        backgroundImage: `url("white_paper_assets/sponsor-bg-vector.svg")`,
+        backgroundImage: `url("white_paper_assets/sponsors.svg")`,
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
@@ -23,7 +23,7 @@ const Sponsors = () => {
           />
         </div>
         <div className="sponsors-btn">
-          <button className="sponsors-btn__btn text-white">
+          <button className="sponsors-btn__btn p-2">
             Become a Sponsor/Partner{" "}
           </button>
           <img

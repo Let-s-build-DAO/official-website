@@ -16,7 +16,7 @@ const Hero = () => {
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
 						harum
 					</div>
-					<button className="rounded-full lg:p-4 p-2 btn lg:w-72 w-52 lg:mx-0 mx-auto flex justify-evenly">
+					<button className="rounded-full lg:p-4 p-2 btn w-72 lg:mx-0 mx-auto flex justify-evenly">
 						<img className="w-8 h-8" src={Discord} alt="" />
 						<div className="my-auto"> Join our communlty</div>
 					</button>

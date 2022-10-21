@@ -1,13 +1,14 @@
 import React from "react";
 import "./nav.css";
 import { Link } from "react-router-dom";
+import Logo from "../../../../assets/logo.svg"
 
 const Nav = () => {
   const [navOpen, setNavOpen] = React.useState(false);
   return (
     <div className={` ${navOpen === true ? "navOpen" : "closed"}`}>
       <nav
-        className={`px-20 top-0 flex w-full justify-between items-center sm-dev md-dev z-50`}
+        className={`px-20 top-0 bg-transparent absolute top-0  flex w-full justify-between items-center sm-dev md-dev z-50`}
       >
         <div
           className="hamburger-menu p-4"
@@ -20,7 +21,7 @@ const Nav = () => {
         <div className="flex relative items-center">
           <div className="logo-items flex">
             <img
-              src="white_paper_assets/logo.svg"
+              src={Logo}
               className="logo-img"
               alt="lets build dao"
             />

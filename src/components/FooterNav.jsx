@@ -3,11 +3,11 @@ import React from "react";
 function FooterNav() {
   return (
     <footer className="bg-[#270a2a] px-12 lg:pb-0 pt-0 md:flex lg:flex md:justify-between lg:justify-between w-full">
-      <div className="flex mb-4 justify-center">
+      <div className="flex my-auto p-2 justify-center">
         <img
           src="white_paper_assets/logo.svg"
           alt="digiBloc"
-          className="footer-logo mt-6 w-[200px] z-[10]"
+          className="footer-logo  w-[150px] z-[10]"
         />
       </div>
       <ul className="footer-list flex items-center justify-center">
