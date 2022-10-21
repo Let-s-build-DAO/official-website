@@ -1,10 +1,9 @@
 import React from 'react';
 import Pattern from '../../assets/pattern.svg';
-import Techrity from '../../assets/techrity.png';
 import { sponsorData } from './sponsorData';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Grid, Navigation } from 'swiper';
-import { useSwiper } from 'swiper/react';
+// import { useSwiper } from 'swiper/react';
 
 import 'swiper/css';
 import 'swiper/css/grid';
@@ -12,7 +11,6 @@ import 'swiper/css/navigation';
 import './styles.css';
 
 const Sponsor = () => {
-	const swiper = useSwiper();
 	return (
 		<div
 			className="p-10 md:15 lg:p-20"
@@ -41,10 +39,6 @@ const Sponsor = () => {
 							slidesPerView: 1,
 							spaceBetween: 10,
               slidesPerColumn: 1,
-              // grid : {
-              //   rows: 1,
-              //   fill: 'column',
-              // }
 						},
 						480: {
 							slidesPerView: 1,
