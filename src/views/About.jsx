@@ -8,7 +8,7 @@ function About(props) {
   return (
     <div>
       <div
-        className={`nav h-[80vh] w-full`}
+        className={`nav w-full`}
         style={{ backgroundImage: `url("white_paper_assets/vector-bg.svg")` }}>
         <Hero />
       </div>
