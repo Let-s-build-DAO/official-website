@@ -3,7 +3,7 @@ import "./mission.css";
 
 const Missions = () => {
   return (
-    <section className="my-12 h-full mx-20">
+    <section className="my-12 h-full lg:mx-20">
       <div className="mission-wrap px-8 pb-6 text-white font-['SF Pro Display']">
         <div className="goal mb-12 flex flex-col justify-center items-center md:block lg:block">
           <h1 className="goal-title text-base md:text-[28px] lg:text-[28px] font-bold uppercase">
@@ -45,7 +45,7 @@ const Missions = () => {
             className="line-dash w-[80px] md:w-[100px] lg:w-[100px] md:mb-4"
           />
 
-          <ul className="goal-list pl-6 mt-2 md:mt-4 lg:mt-4">
+          <ul className="goal-list pl-6 mt-2 md:mt-4 lg:mt-4 lg:text-left text-center">
             <li className="goal-list-item mb-[6px]">
               Access: to provide access to our members that would not otherwise
               be available. Access to education, funding, community, networks
