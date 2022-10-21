@@ -25,8 +25,8 @@
 @media screen and (max-width: 1024px) {
   .md-dev {
     background: #070707;
-    height: 4rem;
-    padding: 4rem 1rem;
+    /* height: 4rem; */
+    padding: 1rem !important;
   }
 
   .support-btn {

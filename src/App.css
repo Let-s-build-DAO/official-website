@@ -1,27 +1,51 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 @font-face {
-    font-family: "CustomFont";
-    src: url("./assets/fonts/BankGothicMediumBT.ttf");
+  font-family: "CustomFont";
+  src: url("./assets/fonts/BankGothicMediumBT.ttf");
 }
 
-.heading{
+.heading {
     font-family: "CustomFont";
 }
-.btn{
+
+.btn {
     background-color: #e98bc7;
+  font-family: "CustomFont";
 }
+.btn {
+  background-color: #e98bc7;
+}
+
+.primaryColor {
+    color: #e98bc7;
+}
+
 @media (max-width: 900px) {
-    *{
+    * {
         overflow-x: hidden;
     }
-    .pattern{
-        height: 80vh!important;
+
+    .pattern {
+        height: 80vh !important;
         width: 100%;
         scale: 2.8;
     }
+}
+  * {
+    overflow-x: hidden;
+  }
+  .pattern {
+    height: 80vh !important;
+    width: 100%;
+    scale: 2.8;
+  }
+}
+
+::-webkit-scrollbar {
+  display: none;
 }
