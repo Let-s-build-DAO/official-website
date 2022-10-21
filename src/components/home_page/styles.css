@@ -35,3 +35,23 @@
   }
 
 }
+
+/* tailwind apply for contact */
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button,
+input[type='number'] {
+  -webkit-appearance: none;
+  margin: 0;
+  -moz-appearance: textfield !important;
+}
+
+.label {
+  @apply block uppercase tracking-wide text-white text-xs font-bold mb-2
+}
+
+.input {
+  @apply appearance-none block w-full bg-black text-white border border-main rounded py-3 px-4
+    leading-tight focus:outline-none focus:border-2 focus:border-main placeholder-gray-700;
+}
+
