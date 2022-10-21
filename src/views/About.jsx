@@ -1,5 +1,4 @@
 import React from 'react';
-import Header from '../components/white_paper_page/header/Header';
 import Missions from '../components/white_paper_page/missions/Missions';
 import Hero from "../components//white_paper_page/header/hero/Hero";
 
