@@ -11,7 +11,7 @@ function FooterNav(props) {
         />
       </div>
       <ul className="footer-list flex items-center justify-center">
-        <li className="footer-list-item mr-8 md:mr-4 lg:mr-4 flex items-center">
+        <li className="footer-list-item mr-8 md:mr-4 lg:mr-12 flex items-center">
           <a href="#" className="footer-list-item-link">
             <img
               src="white_paper_assets/twitter-logo.svg"
@@ -20,7 +20,7 @@ function FooterNav(props) {
             />
           </a>
         </li>
-        <li className="footer-list-item mr-8 md:mr-4 lg:mr-4  flex items-center">
+        <li className="footer-list-item mr-8 md:mr-4 lg:mr-12  flex items-center">
           <a href="#" className="footer-list-item-link">
             <img
               src="white_paper_assets/ig-logo.svg"
@@ -29,7 +29,7 @@ function FooterNav(props) {
             />
           </a>
         </li>
-        <li className="footer-list-item mr-8 md:mr-4 lg:mr-4 flex items-center">
+        <li className="footer-list-item mr-8 md:mr-4 lg:mr-12 flex items-center">
           <a href="#" className="footer-list-item-link">
             <img
               src="white_paper_assets/fb-logo.svg"
@@ -38,7 +38,7 @@ function FooterNav(props) {
             />
           </a>
         </li>
-        <li className="footer-list-item mr-8 md:mr-4 lg:mr-4 flex items-center">
+        <li className="footer-list-item mr-8 md:mr-4 lg:mr-12 flex items-center">
           <a href="#" className="footer-list-item-link">
             <img
               src="white_paper_assets/mail-logo.svg"
