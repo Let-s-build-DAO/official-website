@@ -27,12 +27,12 @@
 }
 
 @media (max-width: 900px) {
-  * {
-    overflow-x: hidden;
-  }
 
+.hero{
+  height: 90vh;
+}
   .pattern {
-    height: 50vh !important;
+    /* height: 100vh !important; */
     width: 100%;
     scale: 2.8;
   }
