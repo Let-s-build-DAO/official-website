@@ -3,7 +3,7 @@ import "./mission.css";
 
 const Missions = () => {
   return (
-    <section className="my-12 w-full h-full">
+    <section className="my-12 h-full mx-20">
       <div className="mission-wrap px-8 pb-6 text-white font-['SF Pro Display']">
         <div className="goal mb-12 flex flex-col justify-center items-center md:block lg:block">
           <h1 className="goal-title text-base md:text-[28px] lg:text-[28px] font-bold uppercase">
