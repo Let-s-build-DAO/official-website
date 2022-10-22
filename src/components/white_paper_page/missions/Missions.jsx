@@ -6,7 +6,7 @@ const Missions = () => {
     <section className="my-12 h-full lg:mx-20">
       <div className="mission-wrap px-8 pb-6 text-white font-['SF Pro Display']">
         <div className="goal mb-12 flex flex-col justify-center items-center md:block lg:block">
-          <h1 className="goal-title text-base md:text-[28px] lg:text-[28px] font-bold uppercase">
+          <h1 className="goal-title heading text-base md:text-[28px] lg:text-[28px] font-bold uppercase">
             Our Goal
           </h1>
           <img
@@ -20,7 +20,7 @@ const Missions = () => {
           </p>
         </div>
         <div className="mission mb-12 flex flex-col justify-center items-center md:block lg:block">
-          <h1 className="goal-title text-base md:text-[28px] lg:text-[28px] font-bold uppercase">
+          <h1 className="goal-title heading text-base md:text-[28px] lg:text-[28px] font-bold uppercase">
             Our MISSION
           </h1>
           <img
@@ -36,7 +36,7 @@ const Missions = () => {
           </p>
         </div>
         <div className="vision mb-12 flex flex-col justify-center items-center md:block lg:block">
-          <h1 className="goal-title text-base md:text-[28px] lg:text-[28px] md:mb-2 font-bold uppercase">
+          <h1 className="goal-title heading text-base md:text-[28px] lg:text-[28px] md:mb-2 font-bold uppercase">
             Our Vision
           </h1>
           <img

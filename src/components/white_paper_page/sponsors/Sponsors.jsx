@@ -13,7 +13,7 @@ const Sponsors = () => {
     >
       <div className="sponsors">
         <div className="sponsors__title mb-[2rem] flex flex-col items-center justify-center">
-          <h2 className="text-[#fff] text-[2.5rem] font-bold uppercase">
+          <h2 className="text-[#fff] heading text-[2.5rem] font-bold uppercase">
             Join our Sponsors
           </h2>
           <img
