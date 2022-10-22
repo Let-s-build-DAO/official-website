@@ -10,7 +10,7 @@ function FooterNav() {
           className="footer-logo  w-[150px] z-[10]"
         />
       </div>
-      <ul className="footer-list flex items-center justify-center">
+      <ul className="footer-list flex items-center justify-center py-6">
         <li className="footer-list-item mr-8 md:mr-4 lg:mr-12 flex items-center">
           <a href="https://twitter.com" className="footer-list-item-link">
             <img

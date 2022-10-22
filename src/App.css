@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  overflow-x: hidden;
 }
 
 @font-face {
@@ -33,7 +34,7 @@
 }
   .pattern {
     /* height: 100vh !important; */
-    width: 100%;
+    /* width: 100%; */
     scale: 2.8;
   }
 }
