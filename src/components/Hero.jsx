@@ -6,7 +6,7 @@ import Img from '../assets/Ellipse.png';
 const Hero = () => {
 	return (
 		<div className='hero'>
-			<img className="pattern h-full" src={Pattern} alt="" />
+			<img className="pattern w-full h-full" src={Pattern} alt="" />
 			<div className="absolute lg:text-left text-center lg:top-72 top-40 lg:mx-32 mx-6">
 				<div className="lg:w-2/3 text-white">
 					<div className="text-white font-bold heading lg:text-7xl text-4xl">

@@ -29,11 +29,13 @@
 
 @media (max-width: 900px) {
 
-.hero{
-  height: 90vh;
-}
+  .hero {
+    height: 90vh;
+    overflow: hidden;
+  }
+
   .pattern {
-    /* height: 100vh !important; */
+    height: 90vh !important;
     /* width: 100%; */
     scale: 2.8;
   }
