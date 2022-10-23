@@ -30,7 +30,7 @@
 @media (max-width: 900px) {
 
   .hero {
-    height: 90vh;
+    /* height: 90vh; */
     overflow: hidden;
   }
 

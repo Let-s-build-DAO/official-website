@@ -1,10 +1,12 @@
 import React from "react";
 import "./nav.css";
 import { Link } from "react-router-dom";
-import Logo from "../../../../assets/logo.svg"
-
+import Logo from "../../../../assets/logo.svg";
 const Nav = () => {
   const [navOpen, setNavOpen] = React.useState(false);
+  const handleClick = () => {
+    setNavOpen(!navOpen);
+  };
   return (
     <div className={` ${navOpen === true ? "navOpen" : "closed"}`}>
       <nav
@@ -13,18 +15,14 @@ const Nav = () => {
         <div
           className="hamburger-menu p-4"
           onClick={() => {
-            setNavOpen(!navOpen);
+            handleClick();
           }}
         >
           <img src="white_paper_assets/hamburger.svg" alt="" />
         </div>
         <div className="flex relative items-center">
           <div className="logo-items flex">
-            <img
-              src={Logo}
-              className="logo-img"
-              alt="lets build dao"
-            />
+            <img src={Logo} className="logo-img" alt="lets build dao" />
             <img
               src="white_paper_assets/divider.svg"
               alt=""
@@ -44,21 +42,37 @@ const Nav = () => {
         <button className="support-btn p-3">Support</button>
       </nav>
       <ul className="mb-nav absolute  z-30 lg:hidden bg-[#27082B] pl-12 pt-12 h-fit top-[-35rem]  transition-all w-full">
-        <Link to="/">
-          <div className="nav-list-item text-[#F8F8F8] text-xl  md:text-3xl font-bold mb-20">
-            Home
-          </div>
-        </Link>
-        <Link to="/about">
-          <div className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-20">
-            About
-          </div>
-        </Link>
-        <div className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-20">
+        <div
+          className="nav-list-item text-[#F8F8F8] text-xl  md:text-3xl font-bold mb-20"
+          onClick={() => {
+            handleClick();
+          }}
+        >
+          <Link to="/">Home</Link>
+        </div>
+        <div
+          className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-20"
+          onClick={() => {
+            handleClick();
+          }}
+        >
+          <Link to="/about">About</Link>
+        </div>
+        <div
+          className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-20 cursor-pointer"
+          onClick={() => {
+            handleClick();
+          }}
+        >
           White Paper
         </div>
         <div className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-20">
-          <button className="p-3 text-[#27082B] bg-[#e98bc7] md:py-[1.5rem] px-[2rem] rounded">
+          <button
+            className="p-3 text-[#27082B] bg-[#e98bc7] md:py-[1.5rem] px-[2rem] rounded"
+            onClick={() => {
+              handleClick();
+            }}
+          >
             Support
           </button>
         </div>
