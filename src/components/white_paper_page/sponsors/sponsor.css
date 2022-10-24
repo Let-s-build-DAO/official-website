@@ -15,7 +15,7 @@
   padding: 10px 20px;
   background: #e98bc7;
   border-radius: 40px;
-  width: 275px;
+  width: fit-content;
   cursor: pointer;
 }
 
