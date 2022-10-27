@@ -1,3 +1,40 @@
+/* import my custom font from assets/fonts/BankGothicMedium.ttf */
+/* import my custom font from assets/fonts/SFPRODISPLAYMEDIUM.OTF */
+
+@font-face {
+  font-family: "BankGothicMedium";
+  src: url("../../../../assets/fonts/BankGothicMediumBT.ttf");
+}
+
+@font-face {
+  font-family: "SFPRODISPLAYMEDIUM";
+  src: url("../../../../assets/fonts/SFPRODISPLAYMEDIUM.OTF");
+}
+
+.custom-font-h1 {
+  font-family: "BankGothicMediumBT";
+  line-height: 80px;
+  font-weight: 500;
+}
+
+.custom-font-h1-mission {
+  font-family: "BankGothicMediumBT";
+  font-weight: 500;
+}
+
+.custom-font-h2 {
+  font-family: "SFPRODISPLAYMEDIUM";
+  line-height: 30px;
+  font-weight: 500;
+}
+.custom-font-h2-mission {
+  font-family: "SFPRODISPLAYMEDIUM";
+  line-height: 30px;
+  font-weight: 500;
+}
+
+
+
 .hero-btns {
   display: flex;
   justify-content: center;
