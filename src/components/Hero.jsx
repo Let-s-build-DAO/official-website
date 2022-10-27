@@ -16,10 +16,12 @@ const Hero = () => {
 						Join us to build a web3 community from this part of the world and
 						beyond.
 					</div>
-					<button className="rounded-full lg:p-4 p-2 btn w-72 lg:mx-0 mx-auto flex justify-evenly">
-						<img className="w-8 h-8" src={Discord} alt="" />
-						<div className="my-auto"> Join our communlty</div>
-					</button>
+					<a href="https://discord.gg/tn7tc4GK" target="blank">
+						<button className="rounded-full lg:p-4 p-2 btn w-72 lg:mx-0 mx-auto flex justify-evenly">
+							<img className="w-8 h-8" src={Discord} alt="" />
+							<div className="my-auto"> Join our communlty</div>
+						</button>
+					</a>
 				</div>
 			</div>
 			<img

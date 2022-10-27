@@ -6,11 +6,10 @@ const Contact = () => {
       <h2 className="heading text-white text-2xl md:text-4xl lg:text-5xl text-center">
         Contact Us
       </h2>
-
       {/* contact form */}
       <div className="mt-10 md:mt15 lg:20 w-full">
         {/* enter email here to receive mail */}
-        <form className="w-full" action="https://formsubmit.co/email" method="POST" >
+        <form className="w-full" action="https://formsubmit.co/318aec521ab9d4120414723329821451" method="POST" >
           <div className="flex flex-wrap -mx-3 mb-6">
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
               <label

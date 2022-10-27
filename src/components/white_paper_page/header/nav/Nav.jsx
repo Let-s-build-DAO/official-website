@@ -41,7 +41,7 @@ const Nav = () => {
         </div>
         <button className="support-btn p-3">Support</button>
       </nav>
-      <ul className="mb-nav absolute h-full z-30 lg:hidden bg-[#27082B] pl-8 pt-12 top-[-35rem]  transition-all w-full">
+      <ul className={navOpen ? "h-full mb-nav absolute z-30 lg:hidden bg-[#27082B] pl-8 pt-12 top-[-35rem]  transition-all w-full" : "mb-nav absolute z-30 lg:hidden bg-[#27082B] pl-8 pt-12 top-[-35rem]  transition-all w-full"}>
         <div
           className="nav-list-item text-[#F8F8F8] text-xl md:text-3xl mb-10"
           onClick={() => {
