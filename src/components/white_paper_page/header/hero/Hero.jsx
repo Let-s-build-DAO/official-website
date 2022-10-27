@@ -1,15 +1,16 @@
 import React from "react";
 import "./hero.css";
+
 const Hero = () => {
   return (
     <section className="hero-section w-full h-full flex  justify-center text-[#F8F8F8]">
       <div className="hero w-[900px] mt-52 mb-44">
-         <h1 className="text-center custom-font-h1 heading lg:text-7xl text-4xl md:text-5xl">
+        <h1 className="text-center heading lg:text-7xl text-4xl md:text-5xl">
           Let’s Build, Connect, Collaborate
         </h1>
         <h3 className="lg:w-1/2 md:w-[650px] custom-font-h2 mx-auto text-center font-medium text-lg">
-          At DAO we build and share the knowledge about web3 technology within
-          Africa and across the world
+          Join us to build a web3 community from this part of the world and
+          beyond.
         </h3>
         <div className="hero-btns w-80 flex mt-[2rem] mx-auto">
           <img

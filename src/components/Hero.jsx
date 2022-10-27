@@ -13,8 +13,8 @@ const Hero = () => {
 						let's build, connect, collaborate
 					</div>
 					<div className="lg:w-96 my-6">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-						harum
+						Join us to build a web3 community from this part of the world and
+						beyond.
 					</div>
 					<button className="rounded-full lg:p-4 p-2 btn w-72 lg:mx-0 mx-auto flex justify-evenly">
 						<img className="w-8 h-8" src={Discord} alt="" />

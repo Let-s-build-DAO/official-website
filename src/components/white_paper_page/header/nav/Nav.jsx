@@ -13,7 +13,7 @@ const Nav = () => {
         className={`px-20 top-0 bg-transparent absolute top-0  flex w-full justify-between items-center sm-dev md-dev z-50`}
       >
         <div
-          className="hamburger-menu p-4"
+          className="hamburger-menu"
           onClick={() => {
             handleClick();
           }}
@@ -41,9 +41,9 @@ const Nav = () => {
         </div>
         <button className="support-btn p-3">Support</button>
       </nav>
-      <ul className="mb-nav absolute  z-30 lg:hidden bg-[#27082B] pl-12 pt-12 h-fit top-[-35rem]  transition-all w-full">
+      <ul className="mb-nav absolute h-full z-30 lg:hidden bg-[#27082B] pl-8 pt-12 top-[-35rem]  transition-all w-full">
         <div
-          className="nav-list-item text-[#F8F8F8] text-xl  md:text-3xl font-bold mb-20"
+          className="nav-list-item text-[#F8F8F8] text-xl md:text-3xl mb-10"
           onClick={() => {
             handleClick();
           }}
@@ -51,7 +51,7 @@ const Nav = () => {
           <Link to="/">Home</Link>
         </div>
         <div
-          className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-20"
+          className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl mb-10"
           onClick={() => {
             handleClick();
           }}
@@ -59,14 +59,14 @@ const Nav = () => {
           <Link to="/about">About</Link>
         </div>
         <div
-          className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-20 cursor-pointer"
+          className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl mb-10 cursor-pointer"
           onClick={() => {
             handleClick();
           }}
         >
           White Paper
         </div>
-        <div className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-20">
+        <div className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-10">
           <button
             className="p-3 text-[#27082B] bg-[#e98bc7] md:py-[1.5rem] px-[2rem] rounded"
             onClick={() => {
