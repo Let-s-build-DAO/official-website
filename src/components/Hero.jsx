@@ -2,6 +2,12 @@ import React from 'react';
 import Pattern from '../assets/pattern.svg';
 import Discord from '../assets/Discord.svg';
 import Img from '../assets/Ellipse.png';
+import Img1 from '../assets/Ellipse1.png';
+import Img2 from '../assets/Ellipse2.png';
+import Img3 from '../assets/Ellipse3.png';
+import Img4 from '../assets/Ellipse4.png';
+import Img5 from '../assets/Ellipse5.png';
+
 
 const Hero = () => {
 	return (
@@ -31,27 +37,27 @@ const Hero = () => {
 			/>
 			<img
 				className="top-80 absolute w-52 hidden lg:block right-0"
-				src={Img}
+				src={Img1}
 				alt=""
 			/>
 			<img
 				className="top-[600px] absolute hidden lg:block w-40 right-80"
-				src={Img}
+				src={Img2}
 				alt=""
 			/>
 			<img
 				className="top-80 absolute w-20 hidden lg:block right-[500px]"
-				src={Img}
+				src={Img3}
 				alt=""
 			/>
 			<img
 				className="top-[350px] absolute w-44 hidden lg:block right-[250px]"
-				src={Img}
+				src={Img4}
 				alt=""
 			/>
 			<img
 				className="top-[450px] absolute w-32 hidden lg:block right-[500px]"
-				src={Img}
+				src={Img5}
 				alt=""
 			/>
 			<img
@@ -61,7 +67,7 @@ const Hero = () => {
 			/>
 			<img
 				className="top-[200px] absolute w-24 hidden lg:block right-[330px]"
-				src={Img}
+				src={Img1}
 				alt=""
 			/>
 		</div>

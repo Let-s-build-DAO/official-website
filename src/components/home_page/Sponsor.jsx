@@ -25,7 +25,7 @@ const Sponsor = () => {
 					slidesPerView={3}
 					navigation
 					grid={{
-						rows: 2,
+						rows: 1,
 						fill: 'row',
 					}}
 					spaceBetween={20}
@@ -38,7 +38,7 @@ const Sponsor = () => {
 						320: {
 							slidesPerView: 1,
 							spaceBetween: 10,
-              slidesPerColumn: 1,
+              				slidesPerColumn: 1,
 						},
 						480: {
 							slidesPerView: 1,
