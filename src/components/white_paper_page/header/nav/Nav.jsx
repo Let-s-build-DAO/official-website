@@ -39,7 +39,14 @@ const Nav = () => {
             <div className="nav-list-item font-bold">Blog</div>
           </ul>
         </div>
-        <button className="support-btn p-3">Support</button>
+        <div>
+          <a href="https://discord.gg/tn7tc4GK" target="blank">
+            <button className="support-btn p-3">Join Us</button>
+          </a>
+          <Link to={"/contact"} className="ml-6">
+            <button className="support-btn p-3">Contact</button>
+          </Link>
+        </div>
       </nav>
       <ul className={navOpen ? "h-full mb-nav absolute z-30 lg:hidden bg-[#27082B] pl-8 pt-12 top-[-35rem]  transition-all w-full" : "mb-nav absolute z-30 lg:hidden bg-[#27082B] pl-8 pt-12 top-[-35rem]  transition-all w-full"}>
         <div
@@ -50,14 +57,14 @@ const Nav = () => {
         >
           <Link to="/">Home</Link>
         </div>
-        <div
+        {/* <div
           className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl mb-10"
           onClick={() => {
             handleClick();
           }}
         >
           <Link to="/about">About</Link>
-        </div>
+        </div> */}
         <div
           className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl mb-10 cursor-pointer"
           onClick={() => {
@@ -67,14 +74,27 @@ const Nav = () => {
           White Paper
         </div>
         <div className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-10">
-          <button
-            className="p-3 text-[#27082B] bg-[#e98bc7] md:py-[1.5rem] px-[2rem] rounded"
-            onClick={() => {
-              handleClick();
-            }}
-          >
-            Support
-          </button>
+          <a href="https://discord.gg/tn7tc4GK" target="blank">
+            <button
+              className="p-3 text-[#27082B] bg-[#e98bc7] md:py-[1.5rem] px-[2rem] rounded"
+              onClick={() => {
+                handleClick();
+              }}
+            >
+              Join Us
+            </button>
+          </a>
+          <Link to={"/contact"} className="ml-6">
+            <button
+              className="p-3 text-[#27082B] bg-[#e98bc7] md:py-[1.5rem] px-[2rem] rounded"
+              onClick={() => {
+                handleClick();
+              }}
+            >
+              Contact
+            </button>
+          </Link>
+
         </div>
       </ul>
     </div>

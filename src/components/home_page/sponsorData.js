@@ -1,4 +1,5 @@
 import Techrity from '../../assets/techrity.png';
+import Gameverse from '../../assets/gameverse.png';
 
 export const sponsorData = [
   {
@@ -8,27 +9,12 @@ export const sponsorData = [
   },
   {
     id : 2,
-    name: "Techrity",
-    image: Techrity
+    name: "Gameverse",
+    image: Gameverse
   },
   {
     id : 3,
     name: "Techrity",
     image: Techrity
-  },
-  {
-    id : 4,
-    name: "Techrity",
-    image: Techrity
-  },
-  {
-    id : 5,
-    name: "Techrity",
-    image: Techrity
-  },
-  {
-    id : 6,
-    name: "Techrity",
-    image: Techrity
-  },
+  }
 ]

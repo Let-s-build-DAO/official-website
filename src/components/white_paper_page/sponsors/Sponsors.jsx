@@ -22,16 +22,18 @@ const Sponsors = () => {
             className="sponsors-img"
           />
         </div>
-        <div className="sponsors-btn">
-          <button className="sponsors-btn__btn p-2">
-            Become a Sponsor/Partner{" "}
-          </button>
-          <img
-            src="white_paper_assets/arrow.svg"
-            alt=""
-            className="ml-[4px] w-5"
-          />
-        </div>
+        <a href="mailto:letsbuilddao@gmail.com">
+          <div className="sponsors-btn">
+            <button className="sponsors-btn__btn p-2">
+              Become a Sponsor/Partner{" "}
+            </button>
+            <img
+              src="white_paper_assets/arrow.svg"
+              alt=""
+              className="ml-[4px] w-5"
+            />
+          </div>
+        </a>
       </div>
     </section>
   );

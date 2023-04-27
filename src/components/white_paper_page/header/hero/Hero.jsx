@@ -1,5 +1,6 @@
 import React from "react";
 import "./hero.css";
+import Discord from '../../../../assets/Discord.svg';
 
 const Hero = () => {
   return (
@@ -12,14 +13,12 @@ const Hero = () => {
           Join us to build a web3 community from this part of the world and
           beyond.
         </h3>
-        <div className="hero-btns w-80 flex mt-[2rem] mx-auto">
-          <img
-            className="github-icon mr-[1rem]"
-            src="white_paper_assets/github.svg"
-            alt="github"
-          />
-          <button className="btn btn-primary p-2">View our white paper</button>
-        </div>
+        <a href="https://discord.gg/tn7tc4GK" target="blank">
+          <button className="rounded-full lg:p-4 p-2 btn w-72 lg:mx-auto my-2 mx-auto flex justify-evenly">
+            <img className="w-8 h-8" src={Discord} alt="" />
+            <div className="my-auto"> Join our communlty</div>
+          </button>
+        </a>
       </div>
     </section>
   );
