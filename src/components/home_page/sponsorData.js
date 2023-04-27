@@ -3,18 +3,23 @@ import Gameverse from '../../assets/gameverse.png';
 
 export const sponsorData = [
   {
-    id : 1,
+    id: 1,
     name: "Techrity",
     image: Techrity
   },
   {
-    id : 2,
+    id: 2,
     name: "Gameverse",
     image: Gameverse
   },
   {
-    id : 3,
+    id: 3,
     name: "Techrity",
     image: Techrity
+  },
+  {
+    id: 4,
+    name: "Gameverse",
+    image: Gameverse
   }
 ]

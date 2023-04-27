@@ -71,7 +71,9 @@ const Nav = () => {
             handleClick();
           }}
         >
-          White Paper
+          <Link to={"/about"}>
+            White Paper
+          </Link>
         </div>
         <div className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-10">
           <a href="https://discord.gg/tn7tc4GK" target="blank">
