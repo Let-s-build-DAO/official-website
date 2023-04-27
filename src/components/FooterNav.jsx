@@ -12,7 +12,7 @@ function FooterNav() {
       </div>
       <ul className="footer-list flex items-center justify-center py-6">
         <li className="footer-list-item mr-8 md:mr-4 lg:mr-12 flex items-center">
-          <a href="https://twitter.com" className="footer-list-item-link">
+          <a href="https://twitter.com/letsbuild_dao" className="footer-list-item-link">
             <img
               src="white_paper_assets/twitter-logo.svg"
               alt=""
@@ -20,7 +20,7 @@ function FooterNav() {
             />
           </a>
         </li>
-        <li className="footer-list-item mr-8 md:mr-4 lg:mr-12  flex items-center">
+        {/* <li className="footer-list-item mr-8 md:mr-4 lg:mr-12  flex items-center">
           <a href="https://ig.com" className="footer-list-item-link">
             <img
               src="white_paper_assets/ig-logo.svg"
@@ -37,9 +37,9 @@ function FooterNav() {
               className="footer-list-item-link-icon w-[35px] md:w-[25px] lg:w-[25px]"
             />
           </a>
-        </li>
+        </li> */}
         <li className="footer-list-item mr-8 md:mr-4 lg:mr-12 flex items-center">
-          <a href="https://mail.com" className="footer-list-item-link">
+          <a href="mailto:letsbuilddoa@gmail.com" className="footer-list-item-link">
             <img
               src="white_paper_assets/mail-logo.svg"
               alt=""
@@ -48,7 +48,7 @@ function FooterNav() {
           </a>
         </li>
         <li className="footer-list-item mr-0 md:mr-4 lg:mr-4 flex items-center">
-          <a href="https://discord.com" className="footer-list-item-link">
+          <a href="https://discord.com/invite/tn7tc4GK" className="footer-list-item-link">
             <img
               src="white_paper_assets/discord-logo.svg"
               alt=""
