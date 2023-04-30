@@ -40,7 +40,7 @@ const Nav = () => {
           </ul>
         </div>
         <div>
-          <a href="https://discord.gg/tn7tc4GK" target="blank">
+          <a href="https://discord.gg/M9jx85nJkN" target="blank">
             <button className="support-btn p-3">Join Us</button>
           </a>
           <Link to={"/contact"} className="ml-6">
@@ -76,7 +76,7 @@ const Nav = () => {
           </Link>
         </div>
         <div className="nav-list-item text-[#F8F8F8]  text-xl  md:text-3xl font-bold mb-10">
-          <a href="https://discord.gg/tn7tc4GK" target="blank">
+          <a href="https://discord.gg/M9jx85nJkN" target="blank">
             <button
               className="p-3 text-[#27082B] bg-[#e98bc7] md:py-[1.5rem] px-[2rem] rounded"
               onClick={() => {

@@ -48,7 +48,7 @@ function FooterNav() {
           </a>
         </li>
         <li className="footer-list-item mr-0 md:mr-4 lg:mr-4 flex items-center">
-          <a href="https://discord.com/invite/tn7tc4GK" className="footer-list-item-link">
+          <a href="https://discord.gg/M9jx85nJkN" className="footer-list-item-link">
             <img
               src="white_paper_assets/discord-logo.svg"
               alt=""
